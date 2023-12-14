@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <Contador incrementar={incrementar} decrementar={decrementar} valor={contador} />
-      <Formulario />
+      {/* <Formulario /> */}
     </div>
   )
 }
